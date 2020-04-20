@@ -4,105 +4,169 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Nebula"
-        mc:Ignorable="d"
-        Title="MainWindow" Height="1079" Width="1920">
+        mc:Ignorable="d" Style="{DynamicResource WindowStyle}"
+        Title="Nebula 4x" Height="1079" Width="1920">
     <Grid Height="1067">
-        <Button Content="Button" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="48" Height="48"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="63,10,0,0" VerticalAlignment="Top" Width="48" Height="48"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="116,10,0,0" VerticalAlignment="Top" Width="48" Height="48"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="169,10,0,0" VerticalAlignment="Top" Width="48" Height="48"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="222,10,0,0" VerticalAlignment="Top" Width="48" Height="48"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="275,10,0,0" VerticalAlignment="Top" Width="48" Height="48"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="328,10,0,0" VerticalAlignment="Top" Width="48" Height="48"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="381,10,0,0" VerticalAlignment="Top" Width="48" Height="48"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="699,10,0,0" VerticalAlignment="Top" Width="48" Height="48"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="434,10,0,0" VerticalAlignment="Top" Width="48" Height="48"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="487,10,0,0" VerticalAlignment="Top" Width="48" Height="48"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="540,10,0,0" VerticalAlignment="Top" Width="48" Height="48"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="593,10,0,0" VerticalAlignment="Top" Width="48" Height="48"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="646,10,0,0" VerticalAlignment="Top" Width="48" Height="48"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="752,10,0,0" VerticalAlignment="Top" Width="48" Height="48"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="805,10,0,0" VerticalAlignment="Top" Width="48" Height="48"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="858,10,0,0" VerticalAlignment="Top" Width="48" Height="48"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="911,10,0,0" VerticalAlignment="Top" Width="48" Height="48"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="964,10,0,0" VerticalAlignment="Top" Width="48" Height="48"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="1017,10,0,0" VerticalAlignment="Top" Width="48" Height="48"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="1070,10,0,0" VerticalAlignment="Top" Width="48" Height="48"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="1123,10,0,0" VerticalAlignment="Top" Width="48" Height="48"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="1176,10,0,0" VerticalAlignment="Top" Width="48" Height="48"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="1229,10,0,0" VerticalAlignment="Top" Width="48" Height="48"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="1282,10,0,0" VerticalAlignment="Top" Width="48" Height="48"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="1335,10,0,0" VerticalAlignment="Top" Width="48" Height="48"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="1388,10,0,0" VerticalAlignment="Top" Width="48" Height="48"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="10,63,0,0" VerticalAlignment="Top" Width="48" Height="48"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="63,63,0,0" VerticalAlignment="Top" Width="48" Height="48"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="116,63,0,0" VerticalAlignment="Top" Width="48" Height="48"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="10,116,0,0" VerticalAlignment="Top" Width="48" Height="48"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="63,116,0,0" VerticalAlignment="Top" Width="48" Height="48"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="116,116,0,0" VerticalAlignment="Top" Width="48" Height="48"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="169,63,0,0" VerticalAlignment="Top" Width="101" Height="48"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="275,63,0,0" VerticalAlignment="Top" Width="101" Height="48"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="381,63,0,0" VerticalAlignment="Top" Width="101" Height="48"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="487,63,0,0" VerticalAlignment="Top" Width="101" Height="48"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="593,63,0,0" VerticalAlignment="Top" Width="101" Height="48"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="699,63,0,0" VerticalAlignment="Top" Width="101" Height="48"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="805,63,0,0" VerticalAlignment="Top" Width="101" Height="48"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="911,63,0,0" VerticalAlignment="Top" Width="101" Height="48"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="1017,63,0,0" VerticalAlignment="Top" Width="101" Height="48"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="1123,63,0,0" VerticalAlignment="Top" Width="101" Height="48"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="1229,63,0,0" VerticalAlignment="Top" Width="101" Height="48"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="1335,63,0,0" VerticalAlignment="Top" Width="101" Height="48"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="169,116,0,0" VerticalAlignment="Top" Width="101" Height="48"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="275,116,0,0" VerticalAlignment="Top" Width="101" Height="48"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="381,116,0,0" VerticalAlignment="Top" Width="101" Height="48"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="487,116,0,0" VerticalAlignment="Top" Width="101" Height="48"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="593,116,0,0" VerticalAlignment="Top" Width="101" Height="48"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="699,116,0,0" VerticalAlignment="Top" Width="101" Height="48"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="805,116,0,0" VerticalAlignment="Top" Width="101" Height="48"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="911,116,0,0" VerticalAlignment="Top" Width="101" Height="48"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="1017,116,0,0" VerticalAlignment="Top" Width="101" Height="48"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="1123,116,0,0" VerticalAlignment="Top" Width="101" Height="48"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="1229,116,0,0" VerticalAlignment="Top" Width="101" Height="48"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="1335,116,0,0" VerticalAlignment="Top" Width="101" Height="48"/>
+        <Button HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="48" Height="48">
+            <TextBlock Text="Colony" TextWrapping="Wrap" TextAlignment="Center" FontSize="10"/>
+        </Button>
+        <Button HorizontalAlignment="Left" Margin="63,10,0,0" VerticalAlignment="Top" Width="48" Height="48">
+            <TextBlock Text="Industry" TextWrapping="Wrap" TextAlignment="Center" FontSize="10"/>
+        </Button>
+        <Button HorizontalAlignment="Left" Margin="116,10,0,0" VerticalAlignment="Top" Width="48" Height="48">
+            <TextBlock Text="Mining" TextWrapping="Wrap" TextAlignment="Center" FontSize="10"/>
+        </Button>
+        <Button HorizontalAlignment="Left" Margin="169,10,0,0" VerticalAlignment="Top" Width="48" Height="48">
+            <TextBlock Text="Research" TextWrapping="Wrap" TextAlignment="Center" FontSize="10"/>
+        </Button>
+        <Button HorizontalAlignment="Left" Margin="222,10,0,0" VerticalAlignment="Top" Width="48" Height="48">
+            <TextBlock Text="Economy" TextWrapping="Wrap" TextAlignment="Center" FontSize="10"/>
+        </Button>
+        <Button HorizontalAlignment="Left" Margin="275,10,0,0" VerticalAlignment="Top" Width="48" Height="48">
+            <TextBlock Text="Class Design" TextWrapping="Wrap" TextAlignment="Center" FontSize="10"/>
+        </Button>
+        <Button HorizontalAlignment="Left" Margin="328,10,0,0" VerticalAlignment="Top" Width="48" Height="48">
+            <TextBlock Text="Create Project" TextWrapping="Wrap" TextAlignment="Center" FontSize="10"/>
+        </Button>
+        <Button HorizontalAlignment="Left" Margin="381,10,0,0" VerticalAlignment="Top" Width="48" Height="48">
+            <TextBlock Text="Fleet Organization" TextWrapping="Wrap" TextAlignment="Center" FontSize="10"/>
+        </Button>
+        <Button HorizontalAlignment="Left" Margin="699,10,0,0" VerticalAlignment="Top" Width="48" Height="48">
+            <TextBlock Text="Species" TextWrapping="Wrap" TextAlignment="Center" FontSize="10"/>
+        </Button>
+        <Button HorizontalAlignment="Left" Margin="434,10,0,0" VerticalAlignment="Top" Width="48" Height="48">
+            <TextBlock Text="Missile Design" TextWrapping="Wrap" TextAlignment="Center" FontSize="10"/>
+        </Button>
+        <Button HorizontalAlignment="Left" Margin="487,10,0,0" VerticalAlignment="Top" Width="48" Height="48">
+            <TextBlock Text="Turret Design" TextWrapping="Wrap" TextAlignment="Center" FontSize="10"/>
+        </Button>
+        <Button HorizontalAlignment="Left" Margin="540,10,0,0" VerticalAlignment="Top" Width="48" Height="48">
+            <TextBlock Text="Ground Forces" TextWrapping="Wrap" TextAlignment="Center" FontSize="10"/>
+        </Button>
+        <Button HorizontalAlignment="Left" Margin="593,10,0,0" VerticalAlignment="Top" Width="48" Height="48">
+            <TextBlock Text="Commanders" TextWrapping="Wrap" TextAlignment="Center" FontSize="10"/>
+        </Button>
+        <Button HorizontalAlignment="Left" Margin="646,10,0,0" VerticalAlignment="Top" Width="48" Height="48">
+            <TextBlock Text="Medal Creation" TextWrapping="Wrap" TextAlignment="Center" FontSize="10"/>
+        </Button>
+        <Button HorizontalAlignment="Left" Margin="752,10,0,0" VerticalAlignment="Top" Width="48" Height="48">
+            <TextBlock Text="System View" TextWrapping="Wrap" TextAlignment="Center" FontSize="10"/>
+        </Button>
+        <Button HorizontalAlignment="Left" Margin="805,10,0,0" VerticalAlignment="Top" Width="48" Height="48">
+            <TextBlock Text="Galaxy View" TextWrapping="Wrap" TextAlignment="Center" FontSize="10"/>
+        </Button>
+        <Button HorizontalAlignment="Left" Margin="858,10,0,0" VerticalAlignment="Top" Width="48" Height="48">
+            <TextBlock Text="Species Comparison" TextWrapping="Wrap" TextAlignment="Center" FontSize="10"/>
+        </Button>
+        <Button HorizontalAlignment="Left" Margin="911,10,0,0" VerticalAlignment="Top" Width="48" Height="48">
+            <TextBlock Text="Intelligence" TextWrapping="Wrap" TextAlignment="Center" FontSize="10"/>
+        </Button>
+        <Button HorizontalAlignment="Left" Margin="964,10,0,0" VerticalAlignment="Top" Width="48" Height="48">
+            <TextBlock Text="Technology Report" TextWrapping="Wrap" TextAlignment="Center" FontSize="10"/>
+        </Button>
+        <Button HorizontalAlignment="Left" Margin="1017,10,0,0" VerticalAlignment="Top" Width="48" Height="48">
+            <TextBlock Text="Mineral Report" TextWrapping="Wrap" TextAlignment="Center" FontSize="10"/>
+        </Button>
+        <Button HorizontalAlignment="Left" Margin="1070,10,0,0" VerticalAlignment="Top" Width="48" Height="48">
+            <TextBlock Text="Sector Report" TextWrapping="Wrap" TextAlignment="Center" FontSize="10"/>
+        </Button>
+        <Button HorizontalAlignment="Left" Margin="1123,10,0,0" VerticalAlignment="Top" Width="48" Height="48">
+            <TextBlock Text="Event Report" TextWrapping="Wrap" TextAlignment="Center" FontSize="10"/>
+        </Button>
+        <Button HorizontalAlignment="Left" Margin="1176,10,0,0" VerticalAlignment="Top" Width="48" Height="48">
+            <TextBlock Text="Refresh View" TextWrapping="Wrap" TextAlignment="Center" FontSize="10"/>
+        </Button>
+        <Button HorizontalAlignment="Left" Margin="1229,10,0,0" VerticalAlignment="Top" Width="48" Height="48">
+            <TextBlock Text="Save" TextWrapping="Wrap" TextAlignment="Center" FontSize="10"/>
+        </Button>
+        <Button HorizontalAlignment="Left" Margin="1282,10,0,0" VerticalAlignment="Top" Width="48" Height="48">
+            <TextBlock Text="Game Management" TextWrapping="Wrap" TextAlignment="Center" FontSize="10"/>
+        </Button>
+        <Button HorizontalAlignment="Left" Margin="1335,10,0,0" VerticalAlignment="Top" Width="48" Height="48">
+            <TextBlock Text="Spacemaster" TextWrapping="Wrap" TextAlignment="Center" FontSize="10"/>
+        </Button>
+        <Button HorizontalAlignment="Left" Margin="1388,10,0,0" VerticalAlignment="Top" Width="48" Height="48">
+            <TextBlock Text="Automate Turns" TextWrapping="Wrap" TextAlignment="Center" FontSize="10"/>
+        </Button>
+        <Button HorizontalAlignment="Left" Margin="10,63,0,0" VerticalAlignment="Top" Width="48" Height="48">
+            <TextBlock Text="Zoom In" TextWrapping="Wrap" TextAlignment="Center" FontSize="10"/>
+        </Button>
+        <Button Content="Up" HorizontalAlignment="Left" Margin="63,63,0,0" VerticalAlignment="Top" Width="48" Height="48"/>
+        <Button HorizontalAlignment="Left" Margin="116,63,0,0" VerticalAlignment="Top" Width="48" Height="48">
+            <TextBlock Text="Zoom Out" TextWrapping="Wrap" TextAlignment="Center" FontSize="10"/>
+        </Button>
+        <Button Content="Left" HorizontalAlignment="Left" Margin="10,116,0,0" VerticalAlignment="Top" Width="48" Height="48"/>
+        <Button Content="Down" HorizontalAlignment="Left" Margin="63,116,0,0" VerticalAlignment="Top" Width="48" Height="48"/>
+        <Button Content="Right" HorizontalAlignment="Left" Margin="116,116,0,0" VerticalAlignment="Top" Width="48" Height="48"/>
+        <Button HorizontalAlignment="Left" Margin="169,63,0,0" VerticalAlignment="Top" Width="101" Height="48">
+            <TextBlock Text="Select Increment Length" TextWrapping="Wrap" TextAlignment="Center" FontSize="10"/>
+        </Button>
+        <Button Content="5 Seconds" HorizontalAlignment="Left" Margin="275,63,0,0" VerticalAlignment="Top" Width="101" Height="48"/>
+        <Button Content="30 Seconds" HorizontalAlignment="Left" Margin="381,63,0,0" VerticalAlignment="Top" Width="101" Height="48"/>
+        <Button Content="2 Minutes" HorizontalAlignment="Left" Margin="487,63,0,0" VerticalAlignment="Top" Width="101" Height="48"/>
+        <Button Content="5 Minutes" HorizontalAlignment="Left" Margin="593,63,0,0" VerticalAlignment="Top" Width="101" Height="48"/>
+        <Button Content="30 Minutes" HorizontalAlignment="Left" Margin="699,63,0,0" VerticalAlignment="Top" Width="101" Height="48"/>
+        <Button Content="1 Hours" HorizontalAlignment="Left" Margin="805,63,0,0" VerticalAlignment="Top" Width="101" Height="48"/>
+        <Button Content="4 Hours" HorizontalAlignment="Left" Margin="911,63,0,0" VerticalAlignment="Top" Width="101" Height="48"/>
+        <Button Content="8 Hours" HorizontalAlignment="Left" Margin="1017,63,0,0" VerticalAlignment="Top" Width="101" Height="48"/>
+        <Button Content="1 Day" HorizontalAlignment="Left" Margin="1123,63,0,0" VerticalAlignment="Top" Width="101" Height="48"/>
+        <Button Content="5 Days" HorizontalAlignment="Left" Margin="1229,63,0,0" VerticalAlignment="Top" Width="101" Height="48"/>
+        <Button Content="30 Days" HorizontalAlignment="Left" Margin="1335,63,0,0" VerticalAlignment="Top" Width="101" Height="48"/>
+        <Button HorizontalAlignment="Left" Margin="169,116,0,0" VerticalAlignment="Top" Width="101" Height="48">
+            <TextBlock Text="Select Sub-Pulse Length (Auto)" TextWrapping="Wrap" TextAlignment="Center" FontSize="10"/>
+        </Button>
+        <Button Content="5 Seconds" HorizontalAlignment="Left" Margin="275,116,0,0" VerticalAlignment="Top" Width="101" Height="48"/>
+        <Button Content="30 Seconds" HorizontalAlignment="Left" Margin="381,116,0,0" VerticalAlignment="Top" Width="101" Height="48"/>
+        <Button Content="2 Minutes" HorizontalAlignment="Left" Margin="487,116,0,0" VerticalAlignment="Top" Width="101" Height="48"/>
+        <Button Content="5 Minutes" HorizontalAlignment="Left" Margin="593,116,0,0" VerticalAlignment="Top" Width="101" Height="48"/>
+        <Button Content="30 Minutes" HorizontalAlignment="Left" Margin="699,116,0,0" VerticalAlignment="Top" Width="101" Height="48"/>
+        <Button Content="1 Hours" HorizontalAlignment="Left" Margin="805,116,0,0" VerticalAlignment="Top" Width="101" Height="48"/>
+        <Button Content="4 Hours" HorizontalAlignment="Left" Margin="911,116,0,0" VerticalAlignment="Top" Width="101" Height="48"/>
+        <Button Content="8 Hours" HorizontalAlignment="Left" Margin="1017,116,0,0" VerticalAlignment="Top" Width="101" Height="48"/>
+        <Button Content="1 Day" HorizontalAlignment="Left" Margin="1123,116,0,0" VerticalAlignment="Top" Width="101" Height="48"/>
+        <Button Content="5 Days" HorizontalAlignment="Left" Margin="1229,116,0,0" VerticalAlignment="Top" Width="101" Height="48"/>
+        <Button Content="30 Days" HorizontalAlignment="Left" Margin="1335,116,0,0" VerticalAlignment="Top" Width="101" Height="48"/>
         <ComboBox HorizontalAlignment="Left" Margin="10,169,0,0" VerticalAlignment="Top" Width="366"/>
         <ComboBox HorizontalAlignment="Left" Margin="10,196,0,0" VerticalAlignment="Top" Width="366"/>
         <WrapPanel Height="400" Margin="10,223,1544,444">
             <TabControl Height="400" Width="366">
-                <TabItem Header="TabItem">
+                <TabItem Header="Display">
                     <Grid Background="#FFE5E5E5"/>
                 </TabItem>
-                <TabItem Header="TabItem">
+                <TabItem Header="Contacts">
                     <Grid Background="#FFE5E5E5"/>
                 </TabItem>
-                <TabItem Header="TabItem">
+                <TabItem Header="Minerals">
                     <Grid Background="#FFE5E5E5"/>
                 </TabItem>
-                <TabItem Header="TabItem">
+                <TabItem Header="Min Text">
                     <Grid Background="#FFE5E5E5"/>
                 </TabItem>
-                <TabItem Header="TabItem">
+                <TabItem Header="Artifacts">
                     <Grid Background="#FFE5E5E5"/>
                 </TabItem>
-                <TabItem Header="TabItem">
+                <TabItem Header="Survey Sites">
                     <Grid Background="#FFE5E5E5"/>
                 </TabItem>
-                <TabItem Header="TabItem">
+                <TabItem Header="Body Info">
                     <Grid Background="#FFE5E5E5"/>
                 </TabItem>
-                <TabItem Header="TabItem">
+                <TabItem Header="All Bodies">
                     <Grid Background="#FFE5E5E5"/>
                 </TabItem>
-                <TabItem Header="TabItem">
+                <TabItem Header="Military">
                     <Grid Background="#FFE5E5E5"/>
                 </TabItem>
-                <TabItem Header="TabItem">
+                <TabItem Header="Waypoints">
                     <Grid Background="#FFE5E5E5"/>
                 </TabItem>
-                <TabItem Header="TabItem">
+                <TabItem Header="Miscellaneous">
                     <Grid Background="#FFE5E5E5"/>
                 </TabItem>
             </TabControl>
         </WrapPanel>
+        <Label BorderBrush="DarkGreen" HorizontalAlignment="Left" Margin="381,169,0,0" VerticalAlignment="Top" Width="180" BorderThickness="0,0,0,4" Height="32" Content="442m km"/>
+
 
     </Grid>
 </Window>
