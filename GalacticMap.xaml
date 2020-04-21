@@ -132,57 +132,57 @@
             <TabControl Height="425" Width="366">
                 <TabItem Header="Display">
                     <Grid Background="#FFE5E5E5">
-                        <CheckBox Content="Events"/>
-                        <CheckBox Content="Colonies" Margin="0,15,0,-15"/>
-                        <CheckBox Content="Jump Points" Margin="0,30,0,-15"/>
-                        <CheckBox Content="Planets" Margin="0,45,0,-15"/>
-                        <CheckBox Content="Dwarf Planets" Margin="0,60,0,-15"/>
-                        <CheckBox Content="Moons" Margin="0,75,0,-15"/>
-                        <CheckBox Content="Asteroids" Margin="0,90,0,-15"/>
-                        <CheckBox Content="Fleets" Margin="0,105,0,-15"/>
-                        <CheckBox Content="Lifepods" Margin="0,120,0,-15"/>
-                        <CheckBox Content="Wrecks" Margin="0,135,0,-15"/>
-                        <CheckBox Content="Waypoints" Margin="0,150,0,-15"/>
-                        <CheckBox Content="Survey Locations" Margin="0,165,0,-15"/>
-                        <CheckBox Content="Mineral Packets" Margin="0,180,0,-15"/>
-                        <CheckBox Content="Active Sensors" Margin="0,195,0,-15"/>
-                        <CheckBox Content="Fire Control Range" Margin="0,210,0,-15"/>
-                        <CheckBox Content="Weapon Range" Margin="0,225,0,-15"/>
-                        <CheckBox Content="Movement Tail" Margin="0,240,0,-15"/>
-                        <CheckBox Content="Hide Escorts" Margin="0,255,0,-15"/>
-                        <CheckBox Content="Geo Survey Points" Margin="0,270,0,-15"/>
-                        <CheckBox Content="Star Names" Margin="0,285,0,-15"/>
-                        <CheckBox Content="Planet Names" Margin="0,300,0,-15"/>
-                        <CheckBox Content="Dwarf Planet Names" Margin="0,315,0,-15"/>
-                        <CheckBox Content="Moon Names" Margin="0,330,0,-15"/>
-                        <CheckBox Content="Asteroid Names" Margin="0,345,0,-15"/>
-                        <CheckBox Content="Fleet Next Order" Margin="0,360,0,-15"/>
+                        <CheckBox Content="Events" Margin="0,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" />
+                        <CheckBox Content="Colonies" Margin="0,15,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" />
+                        <CheckBox Content="Jump Points" Margin="0,30,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" />
+                        <CheckBox Content="Planets" Margin="0,45,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" />
+                        <CheckBox Content="Dwarf Planets" Margin="0,60,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" />
+                        <CheckBox Content="Moons" Margin="0,75,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" />
+                        <CheckBox Content="Asteroids" Margin="0,90,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" />
+                        <CheckBox Content="Fleets" Margin="0,105,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" />
+                        <CheckBox Content="Lifepods" Margin="0,120,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" />
+                        <CheckBox Content="Wrecks" Margin="0,135,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" />
+                        <CheckBox Content="Waypoints" Margin="0,150,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" />
+                        <CheckBox Content="Survey Locations" Margin="0,165,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" />
+                        <CheckBox Content="Mineral Packets" Margin="0,180,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" />
+                        <CheckBox Content="Active Sensors" Margin="0,195,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" />
+                        <CheckBox Content="Fire Control Range" Margin="0,210,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" />
+                        <CheckBox Content="Weapon Range" Margin="0,225,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" />
+                        <CheckBox Content="Movement Tail" Margin="0,240,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" />
+                        <CheckBox Content="Hide Escorts" Margin="0,255,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" />
+                        <CheckBox Content="Geo Survey Points" Margin="0,270,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" />
+                        <CheckBox Content="Star Names" Margin="0,285,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" />
+                        <CheckBox Content="Planet Names" Margin="0,300,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" />
+                        <CheckBox Content="Dwarf Planet Names" Margin="0,315,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" />
+                        <CheckBox Content="Moon Names" Margin="0,330,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" />
+                        <CheckBox Content="Asteroid Names" Margin="0,345,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" />
+                        <CheckBox Content="Fleet Next Order" Margin="0,360,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" />
 
-                        <CheckBox Content="Comet Path" Margin="150,0,0,-15"/>
-                        <CheckBox Content="Orbital Path: Stars" Margin="150,15,0,-15"/>
-                        <CheckBox Content="Orbital Path: Planets" Margin="150,30,0,-15"/>
-                        <CheckBox Content="Orbital Path: Dwarf Planets" Margin="150,45,0,-15"/>
-                        <CheckBox Content="Orbital Path: Moons" Margin="150,60,0,-15"/>
-                        <CheckBox Content="Orbital Path: Asteroids" Margin="150,75,0,-15"/>
-                        <CheckBox Content="Surveyed Bodies" Margin="150,90,0,-15"/>
-                        <CheckBox Content="Mineral Concentrations" Margin="150,105,0,-15"/>
-                        <CheckBox Content="Centre on Selected Objects" Margin="150,120,0,-15"/>
-                        <CheckBox Content="Asteroid with Colonies Only" Margin="150,135,0,-15"/>
-                        <CheckBox Content="Asteroid with Minerals Only" Margin="150,150,0,-15"/>
-                        <CheckBox Content="Fleet Heading" Margin="150,165,0,-15"/>
-                        <CheckBox Content="Order Time and Distance" Margin="150,180,0,-15"/>
-                        <CheckBox Content="Body/Fleet Coordinates" Margin="150,195,0,-15"/>
-                        <CheckBox Content="No Child/Parent Overlaps" Margin="150,210,0,-15"/>
-                        <CheckBox Content="Hide Surveyed Locations" Margin="150,225,0,-15"/>
-                        <CheckBox Content="Packet Content" Margin="150,240,0,-15"/>
-                        <CheckBox Content="Salve Launch Platform" Margin="150,255,0,-15"/>
-                        <CheckBox Content="Salvo Target" Margin="150,270,0,-15"/>
-                        <CheckBox Content="Passive vs Signature 10" Margin="150,285,0,-15"/>
-                        <CheckBox Content="Passive vs Signature 100" Margin="150,300,0,-15"/>
-                        <CheckBox Content="Passive vs Signature 1,000" Margin="150,315,0,-15"/>
-                        <CheckBox Content="Passive vs Signature 10,000" Margin="150,330,0,-15"/>
-                        <CheckBox Content="All Windows Linked to Species" Margin="150,345,0,-15"/>
-                        <CheckBox Content="Keep Tactical in Background" Margin="150,360,0,-15"/>
+                        <CheckBox Content="Comet Path" Margin="150,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" />
+                        <CheckBox Content="Orbital Path: Stars" Margin="150,15,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" />
+                        <CheckBox Content="Orbital Path: Planets" Margin="150,30,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" />
+                        <CheckBox Content="Orbital Path: Dwarf Planets" Margin="150,45,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" />
+                        <CheckBox Content="Orbital Path: Moons" Margin="150,60,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" />
+                        <CheckBox Content="Orbital Path: Asteroids" Margin="150,75,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" />
+                        <CheckBox Content="Surveyed Bodies" Margin="150,90,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" />
+                        <CheckBox Content="Mineral Concentrations" Margin="150,105,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" />
+                        <CheckBox Content="Centre on Selected Objects" Margin="150,120,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" />
+                        <CheckBox Content="Asteroid with Colonies Only" Margin="150,135,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" />
+                        <CheckBox Content="Asteroid with Minerals Only" Margin="150,150,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" />
+                        <CheckBox Content="Fleet Heading" Margin="150,165,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" />
+                        <CheckBox Content="Order Time and Distance" Margin="150,180,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" />
+                        <CheckBox Content="Body/Fleet Coordinates" Margin="150,195,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" />
+                        <CheckBox Content="No Child/Parent Overlaps" Margin="150,210,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" />
+                        <CheckBox Content="Hide Surveyed Locations" Margin="150,225,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" />
+                        <CheckBox Content="Packet Content" Margin="150,240,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" />
+                        <CheckBox Content="Salve Launch Platform" Margin="150,255,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" />
+                        <CheckBox Content="Salvo Target" Margin="150,270,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" />
+                        <CheckBox Content="Passive vs Signature 10" Margin="150,285,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" />
+                        <CheckBox Content="Passive vs Signature 100" Margin="150,300,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" />
+                        <CheckBox Content="Passive vs Signature 1,000" Margin="150,315,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" />
+                        <CheckBox Content="Passive vs Signature 10,000" Margin="150,330,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" />
+                        <CheckBox Content="All Windows Linked to Species" Margin="150,345,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" />
+                        <CheckBox Content="Keep Tactical in Background" Margin="150,360,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" />
                     </Grid>
                 </TabItem>
                 <TabItem Header="Contacts">
